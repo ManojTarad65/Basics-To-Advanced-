@@ -1,37 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Day 1: Basics of React
 
-## Getting Started
+- What is Component
+- Component Syntax
+- Creating First Component
+- Components Challenges
+- Multiple Components
+- Multiple Components Challenge
 
-First, run the development server:
+<br/>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# React
+
+- React is a JavaScript library for building user interfaces.
+- It is created by Facebook and is used to build web applications.
+- React is a component-based framework that allows you to create reusable UI elements.
+
+# How to Setup vite with React
+
+- Install Node.js and npm: Visit nodejs.org to download and install Node.js.
+- Create a new project directory and navigate to it.
+- Run `npm create vite@latest` to create a new project.
+- give project name
+- select React
+- select javascript
+- cd to move to project directory
+- Run `npm install` to install dependencies.
+- Run `npm run dev` to start the development server.
+
+# What is Component
+
+- Components are the building blocks of React applications.
+- They are functions that return JSX (JavaScript XML) that represents the UI.
+- Components can be reused across the application and can be nested to create complex UIs.
+
+# Component Syntax
+
+- Create a new file in the `src` directory and name it `App.js`.
+
+```jsx
+function App() {
+  return (
+    <div>
+      <h1>Hello, world!</h1>
+      <p>This is a React component.</p>
+    </div>
+  );
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Creating First Component
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+#### Steps : Create a `Greet` Component
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Create a new file called `Greet.jsx`.
+2. Inside this file, create a functional component named `Greet`.
+3. The `Greet` component should return a `<div>` element with the following:
+   - A `<h1>` element with the text `"Welcome to My Website!"`
+   - A `<h1>` element with the text `"This is my first React component."`
 
-## Learn More
+### Answer Available in problem1 (Greet.jsx) file.
 
-To learn more about Next.js, take a look at the following resources:
+# Components Challenges
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Create a new file called `Students.jsx`.
+2. Inside this file, create a functional component named `Students`.
+3. The `Students` component should return a `<div>` element with the following:
+   - A `<h1>` element with the text `"Name : Rahda"`
+   - A `<h1>` element with the text `"Age : 22"`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Answer Available in problem2 (Students.jsx) file.
 
-## Deploy on Vercel
+# Multiple Components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- For large website we have to create multiple components and these are stored in `Components` folder.
+- We can create multiple components in a single file.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Basics-To-Advanced-
+# Multiple Components Challenge
+
+- view task.md file.
